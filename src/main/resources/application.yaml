@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    hibernate.naming.physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+  datasource:
+    url: jdbc:postgresql://${address}:5432/rpc
+    username: cuties
+    password: password123
+    driver-class-name: org.postgresql.Driver
+
+
+team: placeholder
+address: localhost
